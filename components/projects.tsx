@@ -26,6 +26,13 @@ const projects = [
     techStack: ["Next.js", "Tailwind CSS"],
     liveDemo: "https://ngo-website-8azr.vercel.app/",
   },
+  {
+  title: "Amrit Aahar Restaurant Website",
+  description: "A modern restaurant website with menu management, gallery, contact form and WhatsApp integration.",
+  image: "/projects/amrit-aahar.jpg",
+  techStack: ["Next.js", "Tailwind CSS", "Supabase"],
+  liveDemo: "https://amrit-aahar-website.vercel.app/"
+}
 ]
 
 export function Projects() {
