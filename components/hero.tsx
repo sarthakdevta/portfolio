@@ -19,7 +19,7 @@ export function Hero() {
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance">
             {"Hi, I'm "}
-            <span className="text-primary">SarthakDev</span>
+            <span className="text-primary">Sarthak</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed text-balance">
             Web Developer building modern websites using{" "}
