@@ -17,21 +17,21 @@ const projects = [
     description: "A modern clothing store website with product listings and admin management features for editing products and images.",
     image: "/projects/clothing-store.jpg",
     techStack: ["Next.js", "Tailwind CSS"],
-    liveDemo: "https://clothing-store-seven-omega.vercel.app/",
+    liveDemo: "https://clothing.sarthakdev.online/",
   },
   {
     title: "NGO Website",
     description: "A responsive NGO website that displays organization details, initiatives, and provides a way for visitors to contact the NGO.",
     image: "/projects/ngo-website.jpg",
     techStack: ["Next.js", "Tailwind CSS"],
-    liveDemo: "https://ngo-website-8azr.vercel.app/",
+    liveDemo: "https://ngo.sarthakdev.online/",
   },
   {
   title: "Amrit Aahar Restaurant Website",
   description: "A modern restaurant website with menu management, gallery, contact form and WhatsApp integration.",
   image: "/projects/amrit-aahar.jpg",
   techStack: ["Next.js", "Tailwind CSS", "Supabase"],
-  liveDemo: "https://amrit-aahar-website.vercel.app/"
+  liveDemo: "https://restaurant.sarthakdev.online/"
 }
 ]
 
