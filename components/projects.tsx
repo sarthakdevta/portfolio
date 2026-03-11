@@ -27,7 +27,7 @@ const projects = [
     liveDemo: "https://ngo.sarthakdev.online/",
   },
   {
-  title: "Amrit Aahar Restaurant Website",
+  title: "Restaurant Website",
   description: "A modern restaurant website with menu management, gallery, contact form and WhatsApp integration.",
   image: "/projects/amrit-aahar.jpg",
   techStack: ["Next.js", "Tailwind CSS", "Supabase"],
