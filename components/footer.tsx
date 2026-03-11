@@ -14,7 +14,7 @@ export function Footer() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} Sarthak. All rights reserved.
+            © {currentYear} SarthakDev. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             {socialLinks.map((link) => (
