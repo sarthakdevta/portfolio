@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Sarthak | Web Developer',
+  title: 'SarthakDev | Web Developer',
   description: 'Web Developer building modern websites using Next.js and Flutter',
   generator: 'v0.app',
   icons: {
