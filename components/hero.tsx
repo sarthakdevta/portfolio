@@ -30,7 +30,6 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-
             <Button asChild size="lg" className="group">
               <a href="#projects">
                 View My Work
@@ -46,11 +45,14 @@ export function Hero() {
             </Button>
 
             <Button asChild variant="secondary" size="lg">
-              <a href="https://wa.me/919009585458" target="_blank">
+              <a
+                href="https://wa.me/919009585458"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Hire Me
               </a>
             </Button>
-
           </div>
         </div>
       </div>
