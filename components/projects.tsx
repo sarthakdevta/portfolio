@@ -27,12 +27,12 @@ const projects = [
     liveDemo: "https://ngo.sarthakdev.online/",
   },
   {
-  title: "Restaurant Website",
-  description: "A modern restaurant website with menu management, gallery, contact form and WhatsApp integration.",
-  image: "/projects/amrit-aahar.jpg",
-  techStack: ["Next.js", "Tailwind CSS", "Supabase"],
-  liveDemo: "https://restaurant.sarthakdev.online/"
-}
+    title: "Restaurant Website",
+    description: "A modern restaurant website with menu management, gallery, contact form and WhatsApp integration.",
+    image: "/projects/amrit-aahar.jpg",
+    techStack: ["Next.js", "Tailwind CSS", "Supabase"],
+    liveDemo: "https://restaurant.sarthakdev.online/"
+  }
 ]
 
 export function Projects() {
@@ -52,7 +52,7 @@ export function Projects() {
           {projects.map((project) => (
             <Card
               key={project.title}
-              className="bg-card border-border overflow-hidden group hover:border-primary/50 transition-colors duration-300"
+              className="project-card bg-card border-border overflow-hidden group hover:border-primary/50 transition-colors duration-300"
             >
               <div className="relative h-48 overflow-hidden">
                 <Image
@@ -63,12 +63,14 @@ export function Projects() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-card to-transparent" />
               </div>
+
               <CardHeader>
                 <CardTitle className="text-xl">{project.title}</CardTitle>
                 <CardDescription className="text-muted-foreground">
                   {project.description}
                 </CardDescription>
               </CardHeader>
+
               <CardContent>
                 <div className="flex flex-wrap gap-2">
                   {project.techStack.map((tech) => (
@@ -78,14 +80,16 @@ export function Projects() {
                   ))}
                 </div>
               </CardContent>
+
               <CardFooter>
-                <Button asChild variant="default" size="sm">
+                <Button asChild size="sm">
                   <a href={project.liveDemo} target="_blank" rel="noopener noreferrer">
                     <ExternalLink className="mr-2 h-4 w-4" />
                     Visit Website
                   </a>
                 </Button>
               </CardFooter>
+
             </Card>
           ))}
         </div>

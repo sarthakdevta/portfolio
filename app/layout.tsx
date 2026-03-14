@@ -6,12 +6,18 @@ import './globals.css'
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: 'SarthakDev | Web Developer',
-  description: 'Web Developer building modern websites using Next.js and Flutter',
-  icons: {
-    icon: '/favicon.ico',
-    apple: '/apple-icon.png',
+export const metadata = {
+  title: "Sarthak Malviya | Web Developer",
+  description:
+    "Portfolio of Sarthak, a developer building modern web applications using Next.js, Flutter and Firebase.",
+  keywords: ["Next.js Developer", "Web Developer", "Portfolio"],
+  authors: [{ name: "Sarthak Malviya" }],
+  openGraph: {
+    title: "Sarthak Malviya | Portfolio",
+    description: "Modern web developer portfolio",
+    url: "https://sarthakdev.online",
+    siteName: "SarthakDev",
+    type: "website",
   },
 }
 
