@@ -1,9 +1,9 @@
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin, Instagram } from "lucide-react"
 
 const socialLinks = [
-  { name: "GitHub", icon: Github, href: "https://github.com" },
-  { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com" },
-  { name: "Email", icon: Mail, href: "mailto:sarthak@example.com" },
+  { name: "GitHub", icon: Github, href: "https://github.com/sarthakdevta" },
+  { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com/in/sarthak-malviya" },
+  { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/sarthak__superb/" },
 ]
 
 export function Footer() {
@@ -16,6 +16,7 @@ export function Footer() {
           <p className="text-sm text-muted-foreground">
             © {currentYear} SarthakDev. All rights reserved.
           </p>
+
           <div className="flex items-center gap-4">
             {socialLinks.map((link) => (
               <a
